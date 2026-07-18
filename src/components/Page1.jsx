@@ -64,7 +64,7 @@ import imgLine1 from '../assets/imgLine1.svg';
 
 const Page1 = React.forwardRef((props, ref) => {
   return (
-    <div ref={ref} className="bg-white relative size-full" {...props} data-node-id="9:346" data-name="page1">
+    <div ref={ref} className="bg-transparent relative w-[1590px] h-[1142px]" {...props} data-node-id="9:346" data-name="page1">
       <div className="absolute contents left-[-62px] top-0" data-node-id="32:329" data-name="table n portfolio">
         <div className="absolute flex h-[1142px] items-center justify-center left-[-62px] top-0 w-[1714px]" data-node-id="32:274">
           <div className="flex-none rotate-90">
@@ -80,7 +80,7 @@ const Page1 = React.forwardRef((props, ref) => {
               <img alt="" className="absolute h-[403.65%] left-0 max-w-none top-[-0.26%] w-full" src={imgImage26} />
             </div>
           </div>
-          <p className="[word-break:break-word] absolute font-['Actor:Regular'] h-[61px] leading-[normal] left-[1192px] not-italic text-[24px] text-black top-[1068px] w-[230px]" data-node-id="32:330">
+          <p className="[word-break:break-word] absolute font-heading-zine h-[61px] leading-[normal] left-[1192px] not-italic text-[24px] text-black top-[1068px] w-[230px]" data-node-id="32:330">
             Resume
           </p>
         </div>
@@ -90,7 +90,7 @@ const Page1 = React.forwardRef((props, ref) => {
           <div className="absolute bg-[rgba(216,119,45,0.8)] border border-[rgba(4,1,1,0.2)] border-solid h-[64px] left-[1185px] top-[88px] w-[61px]" data-node-id="9:343" />
           <div className="absolute flex h-[29.688px] items-center justify-center left-[1185.31px] top-[99.51px] w-[63.667px]" data-node-id="9:344">
             <div className="flex-none rotate-[-11.34deg] skew-x-[3.66deg]">
-              <p className="[word-break:break-word] font-['Caveat_Brush:Regular'] h-[18.516px] leading-[normal] not-italic relative text-[15px] text-white w-[60.048px]">Highlights</p>
+              <p className="[word-break:break-word] font-brush h-[18.516px] leading-[normal] not-italic relative text-[15px] text-white w-[60.048px]">Highlights</p>
             </div>
           </div>
         </a>
@@ -98,7 +98,7 @@ const Page1 = React.forwardRef((props, ref) => {
           <div className="absolute bg-[rgba(45,136,216,0.8)] border border-[rgba(4,1,1,0.2)] border-solid h-[106px] left-[1107px] top-[75px] w-[61px]" data-node-id="9:338" />
           <div className="absolute flex h-[36.914px] items-center justify-center left-[1111.67px] top-[98.79px] w-[55.265px]" data-node-id="9:340">
             <div className="flex-none rotate-[-8.8deg] skew-x-[-4.13deg]">
-              <p className="[word-break:break-word] font-['Caveat_Brush:Regular'] h-[28.818px] leading-[normal] not-italic relative text-[16px] text-white w-[53.549px]">Projects</p>
+              <p className="[word-break:break-word] font-brush h-[28.818px] leading-[normal] not-italic relative text-[16px] text-white w-[53.549px]">Projects</p>
             </div>
           </div>
         </a>
@@ -106,7 +106,7 @@ const Page1 = React.forwardRef((props, ref) => {
           <div className="absolute bg-[rgba(45,216,202,0.8)] border border-[rgba(4,1,1,0.2)] border-solid h-[77px] left-[1269px] top-[95px] w-[61px]" data-node-id="9:348" />
           <div className="absolute flex h-[30.887px] items-center justify-center left-[1278px] top-[112.35px] w-[43.632px]" data-node-id="9:349">
             <div className="flex-none rotate-[-13.56deg] skew-x-[-1.01deg]">
-              <p className="[word-break:break-word] font-['Caveat_Brush:Regular'] h-[22.046px] leading-[normal] not-italic relative text-[15px] text-white w-[39.956px]">Works</p>
+              <p className="[word-break:break-word] font-brush h-[22.046px] leading-[normal] not-italic relative text-[15px] text-white w-[39.956px]">Works</p>
             </div>
           </div>
         </a>
@@ -124,12 +124,12 @@ const Page1 = React.forwardRef((props, ref) => {
         <div className="absolute contents left-[106px] top-[84px]" data-node-id="9:339" data-name="Name">
           <div className="absolute flex h-[223.743px] items-center justify-center left-[167.36px] top-[230.49px] w-[385.647px]" data-node-id="7:170">
             <div className="flex-none rotate-[-4.7deg]">
-              <p className="[word-break:break-word] font-['Caveat_Brush:Regular'] h-[194px] leading-[normal] not-italic relative text-[128px] text-[rgba(113,40,84,0.47)] w-[371px]">KARJEE</p>
+              <p className="[word-break:break-word] font-brush h-[194px] leading-[normal] not-italic relative text-[128px] text-[rgba(113,40,84,0.47)] w-[371px]">KARJEE</p>
             </div>
           </div>
           <div className="absolute flex h-[212.623px] items-center justify-center left-[107px] top-[85px] w-[485.367px]" data-node-id="7:168">
             <div className="flex-none rotate-[-4.51deg]">
-              <p className="[word-break:break-word] font-['Caveat_Brush:Regular'] h-[176px] leading-[normal] not-italic relative text-[128px] text-[rgba(113,40,84,0.3)] w-[473px]">ANIKET</p>
+              <p className="[word-break:break-word] font-brush h-[176px] leading-[normal] not-italic relative text-[128px] text-[rgba(113,40,84,0.3)] w-[473px]">ANIKET</p>
             </div>
           </div>
         </div>
@@ -458,14 +458,14 @@ const Page1 = React.forwardRef((props, ref) => {
               </div>
               <div className="absolute flex h-[17.467px] items-center justify-center left-[calc(50%_+_126px)] top-[806px] w-[42.05px]" data-node-id="9:329">
                 <div className="flex-none rotate-[4.92deg]">
-                  <p className="[word-break:break-word] font-['Belgrano:Regular'] h-[14px] leading-[normal] not-italic relative text-[#565dbc] text-[10px] w-[41px]">Github</p>
+                  <p className="[word-break:break-word] font-heading-zine h-[14px] leading-[normal] not-italic relative text-[#565dbc] text-[10px] w-[41px]">Github</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <p className="[word-break:break-word] absolute font-['Actor:Regular'] h-[453px] leading-[normal] left-[calc(50%_+_63px)] not-italic text-[#4c3131] text-[24px] top-[174px] w-[472px]" data-node-id="9:331">{`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.`}</p>
-        <p className="[word-break:break-word] absolute font-['Caveat_Brush:Regular'] h-[118px] leading-[normal] left-[calc(50%_+_112px)] not-italic text-[#4c3131] text-[128px] top-[-1px] w-[482px]" data-node-id="42:413">
+        <p className="[word-break:break-word] absolute font-heading-zine h-[453px] leading-[normal] left-[calc(50%_+_63px)] not-italic text-[#4c3131] text-[24px] top-[174px] w-[472px]" data-node-id="9:331">{`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.`}</p>
+        <p className="[word-break:break-word] absolute font-brush h-[118px] leading-[normal] left-[calc(50%_+_112px)] not-italic text-[#4c3131] text-[128px] top-[-1px] w-[482px]" data-node-id="42:413">
           portfolio
         </p>
       </div>
@@ -473,7 +473,7 @@ const Page1 = React.forwardRef((props, ref) => {
         <div className="absolute bg-[#cf7ab3] border border-[rgba(4,1,1,0.2)] border-solid h-[170px] left-[431px] top-[98px] w-[61px]" data-node-id="9:352" />
         <div className="absolute flex h-[59.202px] items-center justify-center left-[444px] top-[98px] w-[55.265px]" data-node-id="9:353">
           <div className="flex-none rotate-[-13.94deg] scale-y-98 skew-x-[-11.03deg]">
-            <p className="[word-break:break-word] font-['Caveat_Brush:Regular'] h-[46.124px] leading-[normal] not-italic relative text-[16px] text-white w-[54.525px]">Intro</p>
+            <p className="[word-break:break-word] font-brush h-[46.124px] leading-[normal] not-italic relative text-[16px] text-white w-[54.525px]">Intro</p>
           </div>
         </div>
       </div>

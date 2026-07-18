@@ -15,6 +15,7 @@ import ResumePage4 from './components/ResumePage4';
 
 // Import table background for full screen desk effect
 import imgTable from './assets/imgTable.png';
+import imgPassportPhoto from './assets/imgPassportPhoto.png';
 
 // Wrapper component to split spreads into individual left and right pages
 const BookPage = React.forwardRef((props, ref) => {
@@ -22,12 +23,12 @@ const BookPage = React.forwardRef((props, ref) => {
   return (
     <div
       ref={ref}
-      className="bg-white relative select-none"
+      className="bg-transparent relative select-none"
       style={{
         ...style,
-        width: 795,
-        height: 1142,
-        overflow: 'hidden'
+        width: 595,
+        height: 842,
+        overflow: 'visible'
       }}
       {...otherProps}
     >
@@ -37,8 +38,8 @@ const BookPage = React.forwardRef((props, ref) => {
         style={{
           width: 1590,
           height: 1142,
-          left: leftHalf ? 0 : -795,
-          top: 0
+          left: leftHalf ? -200 : -795,
+          top: -150
         }}
       >
         {standardChild}
@@ -50,8 +51,8 @@ const BookPage = React.forwardRef((props, ref) => {
         style={{
           width: 1590,
           height: 1142,
-          left: leftHalf ? 0 : -795,
-          top: 0
+          left: leftHalf ? -200 : -795,
+          top: -150
         }}
       >
         {resumeChild}
@@ -102,7 +103,7 @@ function App() {
 
   return (
     <div 
-      className="w-screen h-screen overflow-hidden flex items-center justify-center relative select-none"
+      className="w-screen h-screen overflow-hidden relative select-none"
       style={{
         backgroundImage: `url(${imgTable})`,
         backgroundSize: 'cover',
@@ -112,13 +113,40 @@ function App() {
       {/* Desk overlay shadow */}
       <div className="absolute inset-0 bg-black/40 pointer-events-none z-0" />
 
+      {/* Static Table Header & Resume button */}
+      <div className="absolute z-10 pointer-events-none" style={{ width: 1590, height: 1142, left: '50%', top: '50%', transform: `translate(-50%, -50%) scale(${scale})`, transformOrigin: 'center center' }}>
+        {/* portfolio title */}
+        <p className="[word-break:break-word] absolute font-brush h-[118px] leading-[normal] left-[893px] not-italic text-[#4c3131] text-[128px] top-[150px] w-[482px]">
+          portfolio
+        </p>
+
+        {/* Resume button (only clickable if NOT in resume mode) */}
+        {!isResumeMode && (
+          <>
+            <a 
+              className="absolute cursor-pointer pointer-events-auto left-[937px] top-[1039px] w-[579px] h-[103px] bg-[#f7f5f5] border border-[rgba(0,0,0,0.5)] border-solid shadow-[-4px_4px_4px_0px_rgba(0,0,0,0.25)] flex items-center pl-8"
+              onClick={(e) => { e.preventDefault(); setIsResumeMode(true); }}
+            >
+              <div className="w-[94px] h-[30px] overflow-hidden relative">
+                <img alt="" className="absolute h-[403.65%] left-0 max-w-none top-[-0.26%] w-full" src={imgPassportPhoto} />
+              </div>
+            </a>
+            <p className="[word-break:break-word] absolute font-heading-zine h-[61px] leading-[normal] left-[1202px] not-italic text-[24px] text-black top-[1068px] w-[230px] pointer-events-none">
+              Resume
+            </p>
+          </>
+        )}
+      </div>
+
       {/* Scaled viewport container */}
       <div
-        className="relative z-10"
+        className="absolute z-10"
         style={{
           width: 1590,
           height: 1142,
-          transform: `scale(${scale})`,
+          left: '50%',
+          top: '50%',
+          transform: `translate(-50%, -50%) scale(${scale})`,
           transformOrigin: 'center center',
           boxShadow: '0 30px 60px rgba(0,0,0,0.5)',
           borderRadius: '16px',
@@ -126,22 +154,26 @@ function App() {
         }}
       >
         <HTMLFlipBook
-          width={795}
-          height={1142}
+          width={595}
+          height={842}
           size="fixed"
-          minWidth={795}
-          maxWidth={795}
-          minHeight={1142}
-          maxHeight={1142}
+          minWidth={595}
+          maxWidth={595}
+          minHeight={842}
+          maxHeight={842}
           drawShadow={true}
           maxShadowOpacity={0.6}
           showCover={false}
           mobileScrollSupport={true}
           ref={flipBookRef}
-          className="flipbook-container"
+          className="flipbook-container absolute"
           style={{
-            borderRadius: '16px',
-            overflow: 'hidden'
+            left: 200,
+            top: 150,
+            width: 1190,
+            height: 842,
+            borderRadius: '4px',
+            overflow: 'visible'
           }}
         >
           {/* Spread 1: Page 1 (Intro) */}

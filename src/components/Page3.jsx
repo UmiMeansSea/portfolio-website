@@ -111,18 +111,18 @@ import imgLine1 from '../assets/imgLine1.svg';
 
 const Page3 = React.forwardRef((props, ref) => {
   return (
-    <div ref={ref} className="bg-white relative size-full" {...props} data-node-id="9:357" data-name="page3">
+    <div ref={ref} className="bg-transparent relative w-[1590px] h-[1142px]" {...props} data-node-id="9:357" data-name="page3">
       <div className="absolute contents left-[232px] top-[85px]" data-node-id="17:24" data-name="bookmark">
         <div className="absolute contents left-[317px] top-[85px]" data-node-id="17:28" data-name="Creativity" onClick={(e) => { e.preventDefault(); props.onBookmarkClick && props.onBookmarkClick(6); }}>
           <div className="absolute flex h-[24.029px] items-center justify-center left-[317px] top-[126px] w-[55.265px]" data-node-id="17:36">
             <div className="flex-none rotate-[-5.75deg] skew-x-[1.4deg]">
-              <p className="[word-break:break-word] font-['Caveat_Brush:Regular'] h-[18.843px] leading-[normal] not-italic relative text-[16px] text-white w-[53.187px]">Projects</p>
+              <p className="[word-break:break-word] font-brush h-[18.843px] leading-[normal] not-italic relative text-[16px] text-white w-[53.187px]">Projects</p>
             </div>
           </div>
           <div className="absolute bg-[rgba(45,216,202,0.8)] border border-[rgba(4,1,1,0.2)] border-solid h-[82px] left-[1102px] top-[85px] w-[61px]" data-node-id="17:29" />
           <div className="absolute flex h-[32.893px] items-center justify-center left-[1115px] top-[110px] w-[43.632px]" data-node-id="17:30">
             <div className="flex-none rotate-[-14.4deg] skew-x-[-2.6deg]">
-              <p className="[word-break:break-word] font-['Caveat_Brush:Regular'] h-[23.412px] leading-[normal] not-italic relative text-[15px] text-white w-[40.103px]">Works</p>
+              <p className="[word-break:break-word] font-brush h-[23.412px] leading-[normal] not-italic relative text-[15px] text-white w-[40.103px]">Works</p>
             </div>
           </div>
         </div>
@@ -130,7 +130,7 @@ const Page3 = React.forwardRef((props, ref) => {
           <div className="absolute bg-[#cf7ab3] border border-[rgba(4,1,1,0.2)] border-solid h-[58px] left-[232px] top-[108px] w-[61px]" data-node-id="17:32" />
           <div className="absolute flex h-[20.198px] items-center justify-center left-[243px] top-[123px] w-[55.265px]" data-node-id="17:33">
             <div className="flex-none rotate-[-4.84deg] skew-x-[3.65deg]">
-              <p className="[word-break:break-word] font-['Caveat_Brush:Regular'] h-[15.89px] leading-[normal] not-italic relative text-[16px] text-white w-[53.108px]">Intro</p>
+              <p className="[word-break:break-word] font-brush h-[15.89px] leading-[normal] not-italic relative text-[16px] text-white w-[53.108px]">Intro</p>
             </div>
           </div>
         </div>
@@ -152,11 +152,11 @@ const Page3 = React.forwardRef((props, ref) => {
                 <img alt="" className="absolute h-[403.65%] left-0 max-w-none top-[-0.26%] w-full" src={imgPassportPhoto} />
               </div>
             </div>
-            <p className="[word-break:break-word] absolute font-['Caveat_Brush:Regular'] h-[118px] leading-[normal] left-[903px] not-italic text-[#4c3131] text-[128px] top-[150px] w-[482px]" data-node-id="32:402">
+            <p className="[word-break:break-word] absolute font-brush h-[118px] leading-[normal] left-[903px] not-italic text-[#4c3131] text-[128px] top-[150px] w-[482px]" data-node-id="32:402">
               portfolio
             </p>
           </div>
-          <p className="[word-break:break-word] absolute font-['Actor:Regular'] h-[61px] leading-[normal] left-[1202px] not-italic text-[24px] text-black top-[1068px] w-[230px]" data-node-id="32:403">
+          <p className="[word-break:break-word] absolute font-heading-zine h-[61px] leading-[normal] left-[1202px] not-italic text-[24px] text-black top-[1068px] w-[230px]" data-node-id="32:403">
             Resume
           </p>
         </div>
@@ -168,7 +168,7 @@ const Page3 = React.forwardRef((props, ref) => {
             </div>
           </div>
         </a>
-        <p className="[word-break:break-word] absolute font-['Actor:Regular'] h-[61px] leading-[normal] left-[1202px] not-italic text-[24px] text-black top-[1068px] w-[230px]" data-node-id="32:350">
+        <p className="[word-break:break-word] absolute font-heading-zine h-[61px] leading-[normal] left-[1202px] not-italic text-[24px] text-black top-[1068px] w-[230px]" data-node-id="32:350">
           Resume
         </p>
       </div>
@@ -236,7 +236,7 @@ const Page3 = React.forwardRef((props, ref) => {
           </div>
         </div>
         <div className="absolute contents left-[calc(50%_+_43px)] top-[199px]" data-node-id="32:289" data-name="things i have done till now">
-          <div className="-translate-x-1/2 [word-break:break-word] absolute font-['Actor:Regular'] h-[120px] leading-[0] left-[calc(50%_+_281.5px)] not-italic text-[24px] text-black text-center top-[200px] w-[475px]" data-node-id="25:79">
+          <div className="-translate-x-1/2 [word-break:break-word] absolute font-heading-zine h-[120px] leading-[0] left-[calc(50%_+_281.5px)] not-italic text-[24px] text-black text-center top-[200px] w-[475px]" data-node-id="25:79">
             <p className="leading-[normal] mb-0">life is made up of small moments which ultimately makes us who we are.</p>
             <p className="leading-[normal]">​</p>
           </div>
@@ -704,7 +704,7 @@ const Page3 = React.forwardRef((props, ref) => {
             </div>
           </div>
         </div>
-        <div className="[word-break:break-word] absolute font-['Caveat_Brush:Regular'] h-[146px] leading-[0] left-[calc(50%_+_273px)] not-italic text-[15px] text-black top-[670px] w-[145px]" data-node-id="31:241">
+        <div className="[word-break:break-word] absolute font-brush h-[146px] leading-[0] left-[calc(50%_+_273px)] not-italic text-[15px] text-black top-[670px] w-[145px]" data-node-id="31:241">
           <p className="leading-[normal] mb-0">My life was always associated with music.</p>
           <p className="leading-[normal]">
             It helped me through everything.
@@ -735,7 +735,7 @@ const Page3 = React.forwardRef((props, ref) => {
             </div>
           </div>
         </div>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Caveat_Brush:Regular'] h-[124px] leading-[normal] left-[calc(50%_+_288.5px)] not-italic text-[#4c3131] text-[64px] text-center top-[46px] w-[493px]" data-node-id="25:77">
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-brush h-[124px] leading-[normal] left-[calc(50%_+_288.5px)] not-italic text-[#4c3131] text-[64px] text-center top-[46px] w-[493px]" data-node-id="25:77">
           moments of life
         </p>
       </div>
@@ -756,7 +756,7 @@ const Page3 = React.forwardRef((props, ref) => {
           <div className="absolute bg-[rgba(45,216,202,0.8)] border border-[rgba(4,1,1,0.2)] border-solid h-[57px] left-[1279px] top-[114px] w-[61px]" data-node-id="32:368" />
           <div className="absolute flex h-[22.865px] items-center justify-center left-[1288px] top-[126.84px] w-[43.632px]" data-node-id="32:369">
             <div className="flex-none rotate-[-10.12deg] scale-y-99 skew-x-[6.61deg]">
-              <p className="[word-break:break-word] font-['Caveat_Brush:Regular'] h-[16.634px] leading-[normal] not-italic relative text-[15px] text-white w-[39.457px]">Works</p>
+              <p className="[word-break:break-word] font-brush h-[16.634px] leading-[normal] not-italic relative text-[15px] text-white w-[39.457px]">Works</p>
             </div>
           </div>
         </a>
@@ -764,7 +764,7 @@ const Page3 = React.forwardRef((props, ref) => {
           <div className="absolute bg-[rgba(45,136,216,0.8)] border border-[rgba(4,1,1,0.2)] border-solid h-[64px] left-[432px] top-[103px] w-[61px]" data-node-id="32:364" />
           <div className="absolute flex h-[22.288px] items-center justify-center left-[440px] top-[110.21px] w-[55.265px]" data-node-id="32:365">
             <div className="flex-none rotate-[-5.34deg] skew-x-[2.37deg]">
-              <p className="[word-break:break-word] font-['Caveat_Brush:Regular'] h-[17.5px] leading-[normal] not-italic relative text-[16px] text-white w-[53.149px]">Projects</p>
+              <p className="[word-break:break-word] font-brush h-[17.5px] leading-[normal] not-italic relative text-[16px] text-white w-[53.149px]">Projects</p>
             </div>
           </div>
         </a>
@@ -772,7 +772,7 @@ const Page3 = React.forwardRef((props, ref) => {
           <div className="absolute bg-[#cf7ab3] border border-[rgba(4,1,1,0.2)] border-solid h-[72px] left-[514px] top-[94px] w-[61px]" data-node-id="32:359" />
           <div className="absolute flex h-[26.931px] items-center justify-center left-[530px] top-[104.92px] w-[55.265px]" data-node-id="32:360">
             <div className="flex-none rotate-[-6.44deg] skew-x-[-0.05deg]">
-              <p className="[word-break:break-word] font-['Caveat_Brush:Regular'] h-[21.086px] leading-[normal] not-italic relative text-[16px] text-white w-[53.255px]">Intro</p>
+              <p className="[word-break:break-word] font-brush h-[21.086px] leading-[normal] not-italic relative text-[16px] text-white w-[53.255px]">Intro</p>
             </div>
           </div>
         </a>
@@ -780,7 +780,7 @@ const Page3 = React.forwardRef((props, ref) => {
           <div className="absolute bg-[rgba(216,119,45,0.8)] border border-[rgba(4,1,1,0.2)] border-solid h-[160px] left-[354px] top-[121px] w-[61px]" data-node-id="17:26" />
           <div className="absolute flex h-[35.719px] items-center justify-center left-[356px] top-[146px] w-[63.667px]" data-node-id="17:27">
             <div className="flex-none rotate-[-13.56deg] skew-x-[-1.01deg]">
-              <p className="[word-break:break-word] font-['Caveat_Brush:Regular'] h-[22.046px] leading-[normal] not-italic relative text-[15px] text-white w-[60.565px]">Highlights</p>
+              <p className="[word-break:break-word] font-brush h-[22.046px] leading-[normal] not-italic relative text-[15px] text-white w-[60.565px]">Highlights</p>
             </div>
           </div>
         </div>

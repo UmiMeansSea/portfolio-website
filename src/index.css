@@ -7,12 +7,42 @@
 @import "@fontsource/alan-sans/400.css";
 @import "@fontsource/alan-sans/500.css";
 
+/* Explicit Font-Face definitions */
+@font-face {
+  font-family: 'Actor';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Actor'), url('/node_modules/@fontsource/actor/files/actor-latin-400-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Caveat Brush';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Caveat Brush'), url('/node_modules/@fontsource/caveat-brush/files/caveat-brush-latin-400-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Belgrano';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Belgrano'), url('/node_modules/@fontsource/belgrano/files/belgrano-latin-400-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Alan Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Alan Sans'), url('/node_modules/@fontsource/alan-sans/files/alan-sans-latin-400-normal.woff2') format('woff2');
+}
+
 /* Extend Tailwind theme custom variables */
 @theme {
   --font-actor: "Actor", sans-serif;
   --font-caveat-brush: "Caveat Brush", cursive;
   --font-belgrano: "Belgrano", serif;
   --font-alan-sans: "Alan Sans", sans-serif;
+
+  --font-heading-zine: "Actor", "Belgrano", sans-serif;
+  --font-body-zine: "Alan Sans", sans-serif;
+  --font-brush: "Caveat Brush", cursive;
 }
 
 /* Custom attribute selectors for Figma generated arbitrary font classes */
@@ -77,6 +107,11 @@ html, body {
 /* Hide scrollbar utility */
 .no-scrollbar::-webkit-scrollbar {
   display: none;
+}
+
+/* Hide table n portfolio containers inside the page components since it is a static desk background in App.jsx */
+[data-name="table n portfolio"] {
+  display: none !important;
 }
 .no-scrollbar {
   -ms-overflow-style: none;

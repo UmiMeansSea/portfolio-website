@@ -14,7 +14,7 @@ import imgLine1 from '../assets/imgLine1.svg';
 
 const ResumePage2 = React.forwardRef((props, ref) => {
   return (
-    <div ref={ref} className="bg-white relative size-full" {...props} data-node-id="77:114" data-name="Resume_page2">
+    <div ref={ref} className="bg-transparent relative w-[1590px] h-[1142px]" {...props} data-node-id="77:114" data-name="Resume_page2">
       <div className="absolute contents left-[-62px] top-0" data-node-id="77:115" data-name="table n portfolio">
         <div className="absolute flex h-[1142px] items-center justify-center left-[-62px] top-0 w-[1714px]" data-node-id="77:116">
           <div className="flex-none rotate-90">
@@ -29,7 +29,7 @@ const ResumePage2 = React.forwardRef((props, ref) => {
           <div className="absolute bg-[rgba(45,216,202,0.8)] border border-[rgba(4,1,1,0.2)] border-solid h-[71px] left-[1268px] top-[101px] w-[61px]" data-node-id="77:124" />
           <div className="absolute flex h-[28.48px] items-center justify-center left-[1277px] top-[117px] w-[43.632px]" data-node-id="77:125">
             <div className="flex-none rotate-[-12.54deg] skew-x-[1.03deg]">
-              <p className="[word-break:break-word] font-['Caveat_Brush:Regular'] h-[20.412px] leading-[normal] not-italic relative text-[15px] text-white w-[39.792px]">Works</p>
+              <p className="[word-break:break-word] font-brush h-[20.412px] leading-[normal] not-italic relative text-[15px] text-white w-[39.792px]">Works</p>
             </div>
           </div>
         </a>
@@ -37,7 +37,7 @@ const ResumePage2 = React.forwardRef((props, ref) => {
           <div className="absolute bg-[rgba(216,119,45,0.8)] border border-[rgba(4,1,1,0.2)] border-solid h-[58px] left-[1189px] top-[93px] w-[61px]" data-node-id="77:127" />
           <div className="absolute flex h-[26.905px] items-center justify-center left-[1189.31px] top-[103.43px] w-[63.667px]" data-node-id="77:128">
             <div className="flex-none rotate-[-10.3deg] scale-y-99 skew-x-[6.17deg]">
-              <p className="[word-break:break-word] font-['Caveat_Brush:Regular'] h-[16.902px] leading-[normal] not-italic relative text-[15px] text-white w-[59.841px]">Highlights</p>
+              <p className="[word-break:break-word] font-brush h-[16.902px] leading-[normal] not-italic relative text-[15px] text-white w-[59.841px]">Highlights</p>
             </div>
           </div>
         </a>
@@ -45,7 +45,7 @@ const ResumePage2 = React.forwardRef((props, ref) => {
           <div className="absolute bg-[#cf7ab3] border border-[rgba(4,1,1,0.2)] border-solid h-[73px] left-[428px] top-[79px] w-[61px]" data-node-id="77:130" />
           <div className="absolute flex h-[25.422px] items-center justify-center left-[444px] top-[89.31px] w-[55.265px]" data-node-id="77:131">
             <div className="flex-none rotate-[-6.08deg] skew-x-[0.68deg]">
-              <p className="[word-break:break-word] font-['Caveat_Brush:Regular'] h-[19.919px] leading-[normal] not-italic relative text-[16px] text-white w-[53.219px]">Intro</p>
+              <p className="[word-break:break-word] font-brush h-[19.919px] leading-[normal] not-italic relative text-[16px] text-white w-[53.219px]">Intro</p>
             </div>
           </div>
         </a>
@@ -73,7 +73,7 @@ const ResumePage2 = React.forwardRef((props, ref) => {
           </div>
           <div className="absolute flex h-[39.722px] items-center justify-center left-[calc(50%_+_433.52px)] top-[597.64px] w-[101.965px]" data-node-id="77:139">
             <div className="flex-none rotate-[1.55deg]">
-              <p className="[word-break:break-word] font-['Actor:Regular'] h-[37px] leading-[normal] not-italic relative text-[#1d0000] text-[24px] w-[101px]">skills</p>
+              <p className="[word-break:break-word] font-heading-zine h-[37px] leading-[normal] not-italic relative text-[#1d0000] text-[24px] w-[101px]">skills</p>
             </div>
           </div>
         </div>
@@ -118,12 +118,12 @@ const ResumePage2 = React.forwardRef((props, ref) => {
             </div>
           </div>
         </div>
-        <p className="[word-break:break-word] absolute font-['Caveat_Brush:Regular'] h-[88px] leading-[normal] left-[142px] not-italic text-[#4c3131] text-[128px] top-[72px] w-[372px]" data-node-id="77:148">
+        <p className="[word-break:break-word] absolute font-brush h-[88px] leading-[normal] left-[142px] not-italic text-[#4c3131] text-[128px] top-[72px] w-[372px]" data-node-id="77:148">
           Projects
         </p>
         <div className="absolute flex h-[192.184px] items-center justify-center left-[calc(50%_+_341px)] top-[627px] w-[215.474px]" data-node-id="77:149">
           <div className="flex-none rotate-[1.72deg]">
-            <div className="[word-break:break-word] font-['Alan_Sans:Regular'] h-[185.98px] leading-[0] not-italic opacity-83 relative text-[12px] text-black tracking-[0.72px] w-[210px]">
+            <div className="[word-break:break-word] font-body-zine h-[185.98px] leading-[0] not-italic opacity-83 relative text-[12px] text-black tracking-[0.72px] w-[210px]">
               <p className="mb-0">
                 <span className="[text-decoration-skip-ink:none] [text-underline-position:from-font] decoration-[8.5%] decoration-solid leading-[normal] tracking-[0.96px] underline">Languages:</span>
                 <span className="leading-[normal]">{` JavaScript/TypeScript, Python, Dart`}</span>
@@ -144,23 +144,23 @@ const ResumePage2 = React.forwardRef((props, ref) => {
             </div>
           </div>
         </div>
-        <div className="[word-break:break-word] absolute font-['Actor:Regular'] h-[178px] leading-[0] left-[333px] not-italic text-[0px] text-black top-[269px] w-[225px]" data-node-id="77:150">
-          <p className="font-['Alan_Sans:Medium'] leading-[normal] mb-0 text-[20px]">The 21st Romanticists</p>
+        <div className="[word-break:break-word] absolute font-heading-zine h-[178px] leading-[0] left-[333px] not-italic text-[0px] text-black top-[269px] w-[225px]" data-node-id="77:150">
+          <p className="font-body-zine leading-[normal] mb-0 text-[20px]">The 21st Romanticists</p>
           <ul className="list-disc">
             <li className="mb-0 ms-[calc(var(_-__-_list_-_marker_-_font_-_size,0)*1.5*1)]">
-              <span className="[word-break:break-word] font-['Alan_Sans:Regular'] leading-[normal] not-italic text-[16px]">Literary blogging platform built with Flutter and Firebase.</span>
+              <span className="[word-break:break-word] font-body-zine leading-[normal] not-italic text-[16px]">Literary blogging platform built with Flutter and Firebase.</span>
             </li>
             <li className="mb-0 ms-[calc(var(_-__-_list_-_marker_-_font_-_size,0)*1.5*1)]">
-              <span className="[word-break:break-word] font-['Alan_Sans:Regular'] leading-[normal] not-italic text-[16px]">Supports 200+ readers with immersive reading modes.</span>
+              <span className="[word-break:break-word] font-body-zine leading-[normal] not-italic text-[16px]">Supports 200+ readers with immersive reading modes.</span>
             </li>
             <li className="ms-[calc(var(_-__-_list_-_marker_-_font_-_size,0)*1.5*1)]">
-              <span className="[word-break:break-word] font-['Alan_Sans:Regular'] leading-[normal] not-italic text-[16px]">Features Firestore-synced bookmarks and push notifications.</span>
+              <span className="[word-break:break-word] font-body-zine leading-[normal] not-italic text-[16px]">Features Firestore-synced bookmarks and push notifications.</span>
             </li>
           </ul>
         </div>
-        <div className="[word-break:break-word] absolute font-['Alan_Sans:Regular'] h-[264px] leading-[0] left-[calc(50%_+_42px)] not-italic text-[20px] text-black top-[246px] w-[480px]" data-node-id="77:151">
+        <div className="[word-break:break-word] absolute font-body-zine h-[264px] leading-[0] left-[calc(50%_+_42px)] not-italic text-[20px] text-black top-[246px] w-[480px]" data-node-id="77:151">
           <p className="leading-[normal] mb-0 whitespace-pre-wrap">​</p>
-          <p className="font-['Alan_Sans:Medium'] leading-[normal] mb-0 whitespace-pre-wrap">{`SAMS (Structural Authority Mapping System) `}</p>
+          <p className="font-body-zine leading-[normal] mb-0 whitespace-pre-wrap">{`SAMS (Structural Authority Mapping System) `}</p>
           <ul className="list-disc">
             <li className="mb-0 ms-[30px]">
               <span className="leading-[normal]">Architected an interactive Organization Mapping application using React and Vite, featuring dynamic, canvas-based visualizations for complex group and personnel hierarchies</span>
@@ -170,8 +170,8 @@ const ResumePage2 = React.forwardRef((props, ref) => {
             </li>
           </ul>
         </div>
-        <div className="[word-break:break-word] absolute font-['Alan_Sans:Regular'] leading-[0] left-[60px] not-italic text-[16px] text-black top-[551px] w-[238px]" data-node-id="77:152">
-          <p className="font-['Alan_Sans:Medium'] leading-[normal] mb-0">MentorPath</p>
+        <div className="[word-break:break-word] absolute font-body-zine leading-[0] left-[60px] not-italic text-[16px] text-black top-[551px] w-[238px]" data-node-id="77:152">
+          <p className="font-body-zine leading-[normal] mb-0">MentorPath</p>
           <ul className="list-disc">
             <li className="mb-0 ms-[24px]">
               <span className="leading-[normal]">Mentor-mentee SaaS platform supporting 50+ concurrent users.</span>
@@ -189,7 +189,7 @@ const ResumePage2 = React.forwardRef((props, ref) => {
         <div className="absolute bg-[rgba(45,136,216,0.8)] border border-[rgba(4,1,1,0.2)] border-solid h-[151px] left-[357px] top-[89px] w-[61px]" data-node-id="77:154" />
         <div className="absolute flex h-[52.585px] items-center justify-center left-[360px] top-[106.03px] w-[55.265px]" data-node-id="77:155">
           <div className="flex-none rotate-[-12.44deg] scale-y-99 skew-x-[-9.15deg]">
-            <p className="[word-break:break-word] font-['Caveat_Brush:Regular'] h-[40.983px] leading-[normal] not-italic relative text-[16px] text-white w-[54.19px]">Projects</p>
+            <p className="[word-break:break-word] font-brush h-[40.983px] leading-[normal] not-italic relative text-[16px] text-white w-[54.19px]">Projects</p>
           </div>
         </div>
       </div>
