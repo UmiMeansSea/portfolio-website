@@ -739,7 +739,7 @@ const Page3 = React.forwardRef((props, ref) => {
           moments of life
         </p>
       </div>
-      <div className="absolute flex h-[849px] items-center justify-center left-[805px] top-[171px] w-0" data-node-id="9:211">
+      <div className="hidden absolute flex h-[849px] items-center justify-center left-[805px] top-[171px] w-0" data-node-id="9:211">
         <div className="flex-none rotate-90">
           <div className="h-0 relative w-[849px]">
             <div className="absolute inset-[-1px_0_0_0]">

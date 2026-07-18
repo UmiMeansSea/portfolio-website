@@ -72,7 +72,7 @@ const Page2 = React.forwardRef((props, ref) => {
         <div className="absolute h-[841px] left-[-9px] top-[15px] w-[1188px]" data-node-id="17:18" data-name="creases">
           <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCreases} />
         </div>
-        <div className="absolute flex h-[849px] items-center justify-center left-1/2 top-[-1px] w-0" data-node-id="6:154">
+        <div className="hidden absolute flex h-[849px] items-center justify-center left-1/2 top-[-1px] w-0" data-node-id="6:154">
           <div className="flex-none rotate-90">
             <div className="h-0 relative w-[849px]">
               <div className="absolute inset-[-1px_0_0_0]">

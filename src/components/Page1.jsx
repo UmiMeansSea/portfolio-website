@@ -477,7 +477,7 @@ const Page1 = React.forwardRef((props, ref) => {
           </div>
         </div>
       </div>
-      <div className="absolute flex h-[840px] items-center justify-center left-[795px] top-[152px] w-0" data-node-id="6:9">
+      <div className="hidden absolute flex h-[840px] items-center justify-center left-[795px] top-[152px] w-0" data-node-id="6:9">
         <div className="flex-none rotate-90">
           <div className="h-0 relative w-[840px]">
             <div className="absolute inset-[-1px_0_0_0]">
