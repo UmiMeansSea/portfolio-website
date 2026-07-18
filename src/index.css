@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+/* Load Fontsource packages */
+@import "@fontsource/actor";
+@import "@fontsource/caveat-brush";
+@import "@fontsource/belgrano";
+@import "@fontsource/alan-sans/400.css";
+@import "@fontsource/alan-sans/500.css";
+
+/* Extend Tailwind theme custom variables */
+@theme {
+  --font-actor: "Actor", sans-serif;
+  --font-caveat-brush: "Caveat Brush", cursive;
+  --font-belgrano: "Belgrano", serif;
+  --font-alan-sans: "Alan Sans", sans-serif;
+}
+
+/* Custom attribute selectors for Figma generated arbitrary font classes */
+[class~="font-['Actor:Regular']"] {
+  font-family: "Actor", sans-serif;
+  font-weight: 400;
+}
+[class~="font-['Caveat_Brush:Regular']"] {
+  font-family: "Caveat Brush", cursive;
+  font-weight: 400;
+}
+[class~="font-['Belgrano:Regular']"] {
+  font-family: "Belgrano", serif;
+  font-weight: 400;
+}
+[class~="font-['Alan_Sans:Regular']"] {
+  font-family: "Alan Sans", sans-serif;
+  font-weight: 400;
+}
+[class~="font-['Alan_Sans:Medium']"] {
+  font-family: "Alan Sans", sans-serif;
+  font-weight: 500;
+}
+
+/* Global resets for the scrapbook website */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: #1a1a1a;
+  color: #333333;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Page flip wrapper styling */
+.flipbook-container {
+  box-shadow: 0 30px 50px rgba(0,0,0,0.3);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* snapped alignment override for react-pageflip under scale transform */
+.stPageFlip, .stpageflip {
+  position: absolute !important;
+  left: 0 !important;
+  top: 0 !important;
+  width: 1590px !important;
+  height: 1142px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Hide scrollbar utility */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Enable exact layout positioning rules */
+.absolute-layout {
+  position: absolute;
+  box-sizing: border-box;
+}
+
+/* CSS class mapping helper for figma vector outlines */
+svg {
+  display: inline-block;
+  vertical-align: middle;
+}
