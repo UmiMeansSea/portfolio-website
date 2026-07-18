@@ -417,7 +417,7 @@ const Page1 = React.forwardRef((props, ref) => {
             </div>
             <div className="absolute flex items-center justify-center left-[calc(50%_+_11.32px)] size-[121.364px] top-[628.32px]" data-node-id="9:304">
               <div className="flex-none rotate-[-20.92deg]">
-                <div className="relative size-[94px]" data-name="insta icon">
+                <div className="relative size-[94px] mix-blend-multiply" data-name="insta icon">
                   <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgInstaIcon} />
                 </div>
               </div>
@@ -429,7 +429,7 @@ const Page1 = React.forwardRef((props, ref) => {
             </div>
             <div className="absolute flex items-center justify-center left-[calc(50%_+_167.87px)] size-[70.268px] top-[629.87px]" data-node-id="9:315">
               <div className="flex-none rotate-[8.26deg]">
-                <div className="relative size-[62px]" data-name="image 7">
+                <div className="relative size-[62px] mix-blend-multiply" data-name="image 7">
                   <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage7} />
                 </div>
               </div>
@@ -451,7 +451,7 @@ const Page1 = React.forwardRef((props, ref) => {
               </div>
               <div className="absolute flex items-center justify-center left-[calc(50%_+_117px)] size-[60.356px] top-[751px]" data-node-id="9:327">
                 <div className="flex-none rotate-[5.52deg]">
-                  <div className="relative size-[55.29px]" data-name="image 8">
+                  <div className="relative size-[55.29px] mix-blend-multiply" data-name="image 8">
                     <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage10} />
                   </div>
                 </div>
