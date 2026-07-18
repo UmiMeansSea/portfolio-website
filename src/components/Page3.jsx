@@ -199,7 +199,7 @@ const Page3 = React.forwardRef((props, ref) => {
               <img alt="" className="absolute h-[123.71%] left-[-0.16%] max-w-none top-[-23.71%] w-[100.32%]" src={imgFrench} />
             </div>
           </div>
-          <div className="absolute border border-[#ac7272] border-solid h-[193px] left-[60px] shadow-[-2px_1px_4px_0px_rgba(0,0,0,0.25)] top-[127px] w-[241px]" data-node-id="20:39" data-name="french2">
+          <div className="absolute border border-[#ac7272] border-solid h-[193px] left-[60px] top-[127px] w-[241px] mix-blend-multiply" data-node-id="20:39" data-name="french2">
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
               <img alt="" className="absolute h-full left-[-0.02%] max-w-none top-0 w-[142.37%]" src={imgFrench2} />
             </div>
@@ -209,8 +209,8 @@ const Page3 = React.forwardRef((props, ref) => {
               <img alt="" className="absolute h-[126.97%] left-[-13.5%] max-w-none top-[-13.49%] w-[127%]" src={imgFamily} />
             </div>
           </div>
-          <div className="absolute h-[224px] left-[266px] shadow-[-4px_4px_4px_0px_rgba(0,0,0,0.25)] top-[346px] w-[299px]" data-node-id="20:42" data-name="performance">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgPerformance} />
+          <div className="absolute h-[224px] left-[266px] top-[346px] w-[299px]" data-node-id="20:42" data-name="performance">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" style={{filter: 'drop-shadow(-4px 4px 4px rgba(0,0,0,0.25))'}} src={imgPerformance} />
           </div>
           <div className="absolute h-[225px] left-0 top-[615px] w-[169px]" data-node-id="20:48" data-name="band">
             <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgBand} />
@@ -221,7 +221,7 @@ const Page3 = React.forwardRef((props, ref) => {
           <div className="absolute left-[40px] size-[89px] top-[82px]" data-node-id="20:57" data-name="pin">
             <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgPin} />
           </div>
-          <div className="absolute h-[114px] left-[492px] shadow-[-2px_4px_4px_0px_rgba(0,0,0,0.25)] top-[290px] w-[76px]" data-node-id="20:60" data-name="pin2">
+          <div className="absolute h-[114px] left-[492px] top-[290px] w-[76px] mix-blend-multiply" data-node-id="20:60" data-name="pin2">
             <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgPin2} />
           </div>
           <div className="absolute h-[245px] left-[381px] top-[603px] w-[184px]" data-node-id="25:66" data-name="toru">
@@ -240,8 +240,8 @@ const Page3 = React.forwardRef((props, ref) => {
             <p className="leading-[normal] mb-0">life is made up of small moments which ultimately makes us who we are.</p>
             <p className="leading-[normal]">​</p>
           </div>
-          <div className="absolute left-[calc(50%_+_43px)] shadow-[6px_4px_4px_0px_rgba(0,0,0,0.25)] size-[507px] top-[204px]" data-node-id="31:201" data-name="notepad scrap">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgNotepadScrap} />
+          <div className="absolute left-[calc(50%_+_43px)] size-[507px] top-[204px]" data-node-id="31:201" data-name="notepad scrap">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" style={{filter: 'drop-shadow(6px 4px 4px rgba(0,0,0,0.25))'}} src={imgNotepadScrap} />
           </div>
         </div>
         <div className="absolute contents left-[73.39px] top-[169.45px]" data-node-id="32:287" data-name="writings">
@@ -729,8 +729,8 @@ const Page3 = React.forwardRef((props, ref) => {
           </div>
           <div className="absolute flex items-center justify-center left-[568px] size-[200px] top-[561px]" data-node-id="32:262">
             <div className="-scale-y-100 flex-none">
-              <div className="relative shadow-[2px_-1px_4px_0px_rgba(0,0,0,0.25)] size-[200px]" data-name="image 23">
-                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage23} />
+              <div className="relative size-[200px]" data-name="image 23">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" style={{filter: 'drop-shadow(2px -1px 4px rgba(0,0,0,0.25))'}} src={imgImage23} />
               </div>
             </div>
           </div>

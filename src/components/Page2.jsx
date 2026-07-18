@@ -105,12 +105,12 @@ const Page2 = React.forwardRef((props, ref) => {
           </div>
         </div>
         <div className="absolute contents left-[18px] top-[4px]" data-node-id="17:23" data-name="tape">
-          <div className="absolute left-[calc(50%_+_256.84px)] shadow-[-3px_4px_4px_0px_rgba(0,0,0,0.25)] size-[80px] top-[5px]" data-node-id="17:21" data-name="image 14">
+          <div className="absolute left-[calc(50%_+_256.84px)] size-[80px] top-[5px] mix-blend-multiply" data-node-id="17:21" data-name="image 14">
             <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage14} />
           </div>
           <div className="absolute flex h-[189.506px] items-center justify-center left-[19px] top-[196.14px] w-[198.17px]" data-node-id="17:8">
             <div className="flex-none rotate-[-49.56deg]">
-              <div className="h-[176px] relative shadow-[-2px_4px_4px_0px_rgba(0,0,0,0.25)] w-[99px]" data-name="image 11">
+              <div className="h-[176px] relative w-[99px] mix-blend-multiply" data-name="image 11">
                 <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage11} />
               </div>
             </div>
