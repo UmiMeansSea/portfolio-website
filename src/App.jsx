@@ -148,8 +148,6 @@ function App() {
           top: '50%',
           transform: `translate(-50%, -50%) scale(${scale})`,
           transformOrigin: 'center center',
-          boxShadow: '0 30px 60px rgba(0,0,0,0.5)',
-          borderRadius: '16px',
           overflow: 'visible'
         }}
       >

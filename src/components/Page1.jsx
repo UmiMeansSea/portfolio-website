@@ -410,7 +410,7 @@ const Page1 = React.forwardRef((props, ref) => {
           <div className="absolute contents left-[calc(50%_+_11.32px)] top-[628.32px]" data-node-id="9:306" data-name="insta icon">
             <div className="absolute flex h-[113.625px] items-center justify-center left-[calc(50%_+_14px)] top-[634px] w-[115.068px]" data-node-id="9:298">
               <div className="flex-none rotate-[-14.33deg]">
-                <div className="h-[93px] relative shadow-[6px_0px_4px_0px_rgba(0,0,0,0.25)] w-[95px]" data-name="image 4">
+                <div className="h-[93px] relative w-[95px]" data-name="image 4">
                   <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage4} />
                 </div>
               </div>
@@ -424,7 +424,7 @@ const Page1 = React.forwardRef((props, ref) => {
             </div>
           </div>
           <div className="absolute contents left-[calc(50%_+_145px)] top-[606px]" data-node-id="9:317" data-name="linkdin icon">
-            <div className="absolute left-[calc(50%_+_145px)] shadow-[5px_1px_4px_0px_rgba(0,0,0,0.25)] size-[116px] top-[606px]" data-node-id="9:312" data-name="image 6">
+            <div className="absolute left-[calc(50%_+_145px)] size-[116px] top-[606px]" data-node-id="9:312" data-name="image 6">
               <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage6} />
             </div>
             <div className="absolute flex items-center justify-center left-[calc(50%_+_167.87px)] size-[70.268px] top-[629.87px]" data-node-id="9:315">
@@ -439,7 +439,7 @@ const Page1 = React.forwardRef((props, ref) => {
             <div className="absolute contents left-[calc(50%_+_42px)] top-[661px]" data-node-id="9:330" data-name="github icon">
               <div className="absolute flex items-center justify-center left-[calc(50%_+_84.5px)] size-[120.995px] top-[726.5px]" data-node-id="9:321">
                 <div className="flex-none rotate-[2.52deg]">
-                  <div className="relative shadow-[5px_1px_4px_0px_rgba(0,0,0,0.25)] size-[116px]" data-name="image 6">
+                  <div className="relative size-[116px]" data-name="image 6">
                     <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage8} />
                   </div>
                 </div>
